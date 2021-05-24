@@ -28,7 +28,7 @@ shinyUI(fluidPage(
                   "Farms:",
                   min = 1,
                   max = 100,
-                  value = 50)
+                  value = 60)
     )
   )
 ))
