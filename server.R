@@ -20,6 +20,9 @@ shinyServer(function(input, output) {
     
     # draw the histogram with the specified number of bins
     hist(x, main = "AM", xlab = "Farm", ylab = "Freq", breaks = bins, col = 'green', border = 'black')
+    hist(x, main = "AM", xlab = "Farm", ylab = "Freq", breaks = bins, col = 'green', border = 'black') 
+    axis(1, col = 'blue', col.axis = 'purple', col.ticks = 'red', cex.axis = 1.5, font = 2, family = 'serif')
+    axis(2, col = 'maroon', col.axis = 'pink', col.ticks = 'limegreen', cex.axis = 0.9, font =3, family = 'mono')
     
   })
   
