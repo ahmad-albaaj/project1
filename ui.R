@@ -30,6 +30,7 @@ shinyUI(fluidPage(
                   max = 100,
                   value = 60)
                   value = 50)
+      
     )
   )
 ))
